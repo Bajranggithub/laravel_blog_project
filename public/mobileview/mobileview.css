@@ -1,0 +1,325 @@
+@media only screen and (max-width: 600px) {
+    /* welcome page responsive mobile view start  */
+
+    /* Header section start  */
+
+    .top_header {
+        padding-left: 1rem !important;
+        padding-right: 1rem !important;
+        padding-top: 1rem !important;
+    }
+
+    .left_section button {
+        display: block !important;
+        padding: 0px;
+    }
+
+    .left_section button:focus {
+        outline: none;
+        padding: 0px;
+
+    }
+
+    .navbar-toggler-icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+        font-size: 25px;
+        width: 1.5em;
+        height: 1.5em;
+    }
+
+    .navbar .navbar-toggler {
+        display: none;
+    }
+
+    .social_icon {
+        display: none;
+    }
+
+    .center_section h3 {
+        font-size: 32px !important;
+    }
+
+    .right_section a {
+        font-size: 18px !important;
+    }
+
+    .navbar-toggler {
+        margin-bottom: 15px;
+    }
+
+    .navbar {
+        padding-left: 1rem !important;
+        padding-right: 1rem !important;
+        background-color: #19191b;
+        height: 100vh;
+        z-index: 1;
+        position: fixed;
+        top: 0px;
+        width: 100%;
+        margin: 0px !important;
+        visibility: hidden;
+        opacity: 0;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .mobileView_show {
+        visibility: visible;
+        opacity: 1;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .navbar_section {
+        height: 72px !important;
+    }
+
+    #navbarSupportedContent {
+        width: 100%;
+        left: 1%;
+        border: none;
+        min-height: 405px;
+        position: relative;
+        top: -15%;
+        overflow-y: auto;
+    }
+
+    .navbar-nav li {
+        border-bottom: 1px solid;
+    }
+
+    #navbarSupportedContent ul {
+        align-items: normal !important;
+        line-height: 3;
+    }
+
+    #navbarSupportedContent .navbar-nav {
+        position: absolute;
+        top: 0;
+    }
+
+    .sidebarclose button {
+        padding: 20px 0px !important;
+    }
+
+    .sidebarclose span i {
+        font-size: 20px !important;
+    }
+
+    .Catergory_dropdown ul li {
+        text-align: unset !important;
+        margin-bottom: 0px !important;
+        border: none;
+        margin-top: 0px !important;
+    }
+
+    .Catergory_dropdown ul {
+        line-height: 2 !important;
+    }
+
+    .Catergory_dropdown {
+        position: relative !important;
+        background-color: #0000 !important;
+        width: 100% !important;
+    }
+
+    #navbarSupportedContent ul li a {
+        font-size: 15px;
+        font-weight: unset;
+    }
+
+    .closenavbarbtn {
+        font-size: 32px;
+        text-align: center;
+        color: #fff;
+        cursor: pointer;
+        display: block !important;
+    }
+
+    .mobile_closingpart {
+        display: block !important;
+    }
+
+    .closeviewpart {
+        display: block !important;
+        text-align: center;
+        color: #fff;
+    }
+
+    .modal-header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .modal-header .close {
+        margin: 0px 0px;
+    }
+
+    .lgpartmodal_view {
+        display: none;
+    }
+
+    .modalOpen_serching {
+        display: block !important;
+        font-size: 20px;
+        color: #fff;
+        cursor: pointer;
+    }
+
+    .mobile_view {
+        display: none;
+    }
+
+    .mobile_view_fillter i {
+        color: #fff;
+        font-size: 20px;
+        display: block !important;
+        cursor: pointer;
+    }
+
+    /* Header section end  */
+
+    /* header fillter sidebar start  */
+
+    .fillter_sidebar_active {
+        left: 0% !important;
+    }
+
+    .fillter_section_top .col-md-9 {
+        width: auto !important;
+    }
+
+    .fillter_section_top .col-md-3 {
+        width: auto !important;
+    }
+
+    .fillter_section_top .col-md-9 h5 {
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+    .checkbox_fillter_scroll {
+        height: 435px;
+        overflow: scroll;
+    }
+
+    .fillter_section_top {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    /* header fillter sidebar end  */
+
+    /* Welcome page start  */
+
+    .blog_mobileview {
+        padding-left: 1rem !important;
+        padding-right: 2rem !important;
+    }
+
+    .topsection_img {
+        height: 350px !important;
+    }
+
+    .blog_background h4 span {
+        font-size: 18px !important;
+        white-space: nowrap;
+    }
+
+    .admin_profile img {
+        display: none;
+    }
+
+    .admin_profile p {
+        margin-left: 0px !important;
+    }
+
+    .blog_background .row {
+        margin-top: 35%;
+    }
+
+    .Lifestyleblog_post {
+        display: none;
+    }
+
+    .Menegment_post {
+        padding: 0px 15px;
+    }
+
+    .blog_background h5 span {
+        font-size: 19px !important;
+    }
+
+    #Catergory_dropdown {
+        display: none;
+    }
+
+    .Catergory_dropdown {
+        position: absolute;
+        left: 0%;
+        top: 100%;
+        background-color: #00000000 !important;
+        z-index: 1;
+        width: 130px;
+        transition: all 0.8s ease-in-out;
+    }
+
+    /* Welcome page end  */
+
+    /* post view page start  */
+
+    .profile_pic .col-md-2 {
+        width: auto;
+    }
+
+    .post_date_details {
+        text-align: center;
+        letter-spacing: 4px;
+    }
+
+    .post_view h1 {
+        font-size: 30px !important;
+    }
+
+    .postview_discription {
+        padding: 0px 25px !important;
+    }
+    .text-borderspan{
+        font-size: 25px !important;
+    }
+
+    /* post view page end  */
+
+    /* Footer page start  */
+
+    .Footer_tital h5 {
+        padding: 12px 0px !important;
+    }
+
+    .footerLInks {
+        text-align: center;
+    }
+
+    .footerLInks a {
+        border-bottom: 1px solid #484848;
+        line-height: 4;
+    }
+
+    .Footer_dis .col-md-4 {
+        padding: 0px 0px !important;
+    }
+
+    .Footer_dis p {
+        text-align: center;
+        font-size: 15px;
+        font-family: initial;
+    }
+
+    /* Footer page end  */
+
+
+    /* welcome page responsive mobile view end  */
+}
